@@ -14,7 +14,7 @@ app.use(
   })
 );
 
-// Serve the files on port 3000.
-app.listen(3000, function () {
+// Serve the files on port 3003.
+app.listen(3003, function () {
   console.log('Example app listening on port 3003!\n');
 });
