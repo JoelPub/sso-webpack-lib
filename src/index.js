@@ -110,14 +110,8 @@ function receiveMessage(event,frame , target, span,btn4) {
 }
 function receiveMessageIframe(event,parentWin,input,span,btn,btn1) {
     //if (event.origin !== 'http://localhost:3000') {
-    if (event.origin !== 'http://localhost:3000'&&
-        event.origin !== 'http://localhost:3002'&&
-        event.origin !== 'http://localhost:3003'&&
-        event.origin !== 'http://localhost:3004'&&
-        event.origin !== 'http://18.215.228.3:3000'&&
-        event.origin !== 'http://18.215.228.3:3002'&&
-        event.origin !== 'http://18.215.228.3:3003'&&
-        event.origin !== 'http://18.215.228.3:3004'
+    if (event.origin !== 'https://sso-host-sitea.onrender.com'&&
+        event.origin !== 'https://sso-host-siteb.onrender.com'
     ) {
         return false
     }
