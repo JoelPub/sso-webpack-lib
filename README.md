@@ -6,7 +6,7 @@
 
 ```sh
 npm init -y
-npm install webpack webpack-cli html-webpack-plugin lodash express--save-dev
+npm install webpack webpack-cli html-webpack-plugin lodash express webpack-dev-middleware --save
 ```
 ```sh
 npm install && npm run build && node index.js
