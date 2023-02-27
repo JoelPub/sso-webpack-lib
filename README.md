@@ -9,6 +9,6 @@ npm init -y
 npm install webpack webpack-cli html-webpack-plugin lodash express--save-dev
 ```
 ```sh
-npm install && npm run build && npm run server
+npm install && npm run build && node index.js
 ```
 - 运行后可以刷新a和b两个站点嵌入js library
