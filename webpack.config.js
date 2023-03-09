@@ -10,18 +10,24 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
         inject: "head",
-        scriptLoading: "blocking",
+        scriptLoading: "module",//webpack es module
         title: 'Development',
         template: 'index.html'
     }),
   ],
+  //webpack es module
+  experiments: {
+    outputModule: true,
+  },
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
     library: {
-      name: 'webpackNumbers',
-      type: 'umd',
+      //webpack es module
+      // name: 'webpackNumbers',
+      // type: 'umd',
+      type: 'module',
     },
     publicPath: '/',
   },

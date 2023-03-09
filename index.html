@@ -5,14 +5,14 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
 <body>
-<script>
+<!-- <script> -->
+<script type="module">//webpack es module
+	import * as webpackNumbers  from '/index.bundle.js'
     // ...
     // Global variable
     webpackNumbers.numToWord(5);
-    // Property in the window object
-    window.webpackNumbers.numToWord(5);
     // ...
-    document.body.innerText=webpackNumbers.numToWord(2)||window.webpackNumbers.numToWord(3)
+    document.body.innerText=webpackNumbers.numToWord(2)
 </script>
 </body>
 </html>
