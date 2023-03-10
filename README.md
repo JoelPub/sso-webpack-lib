@@ -1,4 +1,4 @@
-# sso-webpack-lib
+# sso使用的webpack 生成的module library 
 https://sso-webpack-lib.onrender.com
 
 
