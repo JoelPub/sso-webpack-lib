@@ -110,8 +110,8 @@ function receiveMessage(event,frame , target, span,btn4) {
 }
 function receiveMessageIframe(event,parentWin,input,span,btn,btn1) {
     //if (event.origin !== 'http://localhost:3000') {
-    if (event.origin !== 'https://cosmic-heliotrope-311f0f.netlify.app'&&
-        event.origin !== 'https://earnest-valkyrie-af6709.netlify.app'
+    if (event.origin !== 'https://sso-sitea.netlify.app'&&
+        event.origin !== 'https://sso-siteb.netlify.app'
     ) {
         return false
     }
