@@ -110,10 +110,8 @@ function receiveMessage(event,frame , target, span,btn4) {
 }
 function receiveMessageIframe(event,parentWin,input,span,btn,btn1) {
     //if (event.origin !== 'http://localhost:3000') {
-    if (event.origin !== 'https://friendly-ox-cloak.cyclic.app'&&
-        event.origin !== 'https://sso-host-siteb.onrender.com'&&
-        event.origin !== 'https://shiny-pudding-a266cd.netlify.app'&&
-        event.origin !== 'https://cool-alpaca-b91358.netlify.app'
+    if (event.origin !== 'https://cosmic-heliotrope-311f0f.netlify.app'&&
+        event.origin !== 'https://earnest-valkyrie-af6709.netlify.app'
     ) {
         return false
     }
